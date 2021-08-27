@@ -1,4 +1,4 @@
-package dev.linmg.sudokufreecodecamp
+package dev.linmg.sudokufreecodecamp.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
