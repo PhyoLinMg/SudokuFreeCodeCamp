@@ -4,8 +4,9 @@ import java.lang.Exception
 
 interface IGameDataStorage {
     suspend fun updateGame(game:SudokuPuzzle):GamesStorageResult
-    suspend fun updateNode(x:Int,y:Int,elapsedTime:Long):GamesStorageResult
+    suspend fun updateNode(x:Int,y:Int,color:Int,elapsedTime:Long):GamesStorageResult
     suspend fun getCurrentGame():GamesStorageResult
+
 }
 
 sealed class GamesStorageResult{
